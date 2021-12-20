@@ -115,7 +115,7 @@ jobs:
       run: terraform fmt -check -diff
       continue-on-error: true
 
-    - name: Terraform Init
+    - name: Terraform init
       id: init
       run: terraform init
       continue-on-error: true
