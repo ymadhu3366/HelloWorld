@@ -1,4 +1,4 @@
-module "HelloWorld-ecr" {
+module "helloWorld-ecr" {
   providers = {
     aws = aws.app-west
   }
